@@ -1,0 +1,56 @@
+
+
+::-webkit-scrollbar {
+  width: 10px; // Largeur de la scrollbar
+}
+::-webkit-scrollbar-thumb {
+  background-color: #231f20; // Nouvelle couleur de la poignée de la scrollbar
+  border-radius: 50%;
+  
+}
+
+
+@font-face {
+    font-family: 'GeistMono-Regular';
+    src: url('./assets/Fonts/GeistMono-Regular.otf') format('opentype');         
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'GeistMono-Thin';
+    src: url('./assets/Fonts/GeistMono-Thin.otf') format('opentype');         
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'GeistMono-SemiBold';
+    src: url('./assets/Font/GeistMono-SemiBold') format('opentype');         
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'wildWorld';
+    src: url('./assets/Fonts/WILD\ WORLD.otf') format('opentype');         
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+
+body{    
+    font-family: 'GeistMono-Regular', sans-serif;
+    background-color: #EFEDED; 
+    color: #EFEDED;
+    
+    
+    
+}
+
+ 
