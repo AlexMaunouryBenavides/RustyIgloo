@@ -4,6 +4,8 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 
 import Home from './Home';
 import Projects from './Projects';
+import Contact from './Contact';
+import Error from './Error';
 
 function App() {
 	const location = useLocation();
@@ -15,6 +17,8 @@ function App() {
 		<Routes>
 			<Route path="/" exact element={<Home />} />
 			<Route path="/projets" exact element={<Projects />} />
+			<Route path="/contact" exact element={<Contact />} />
+			<Route path="*" exact element={<Error />} />
 		</Routes>
 	);
 }
