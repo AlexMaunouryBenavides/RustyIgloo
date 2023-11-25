@@ -124,7 +124,9 @@ function Header() {
 						<li onClick={handleClick}>
 							<Link to={'/projets'}> Projets</Link>
 						</li>
-						<li onClick={handleClick}>Contact</li>
+						<li onClick={handleClick}>
+							<Link to={'/contact'}> Contact</Link>
+						</li>
 					</ul>
 				</div>
 			</div>

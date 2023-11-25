@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Btn from '../Btn';
+import { Link } from 'react-router-dom';
 
 const StyledAbout = styled.section`
 	height: 100vh;
@@ -63,7 +64,9 @@ function HomeAbout() {
 					</p>
 				</div>
 
-				<Btn title={'Contact'} />
+				<Link to={'contact'}>
+					<Btn title={'Contact'} />
+				</Link>
 			</div>
 		</StyledAbout>
 	);
