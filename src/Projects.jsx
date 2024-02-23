@@ -15,6 +15,7 @@ const StyledProjectsPage = styled.div`
 	.card {
 		height: 700px;
 		width: 550px;
+		margin-top: 20px;
 		background-color: black;
 		padding: 1px;
 		box-shadow: 3px 3px 0px #b4a2f8, 4px 4px 0 #231f20;
@@ -35,8 +36,7 @@ const StyledProjectsPage = styled.div`
 		}
 		p {
 			color: #efeded;
-
-			padding: 20px;
+			padding: 0 20px;
 		}
 	}
 	@media only screen and (max-width: 650px) {
